@@ -2,9 +2,7 @@ package tercer.examen;
 
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Scanner;
 
 public class Equipo {
 
@@ -54,18 +52,6 @@ public class Equipo {
 	
 	/*private boolean hayJugadoresRepetidos(Equipo e1, Equipo e2){
 		
-		e1.getJugador();
-
-		List<String> jugadores;
-		
-		
-		Iterator<String> iter = jugadores.iterator();
-		
-		if(iter.hasNext()){
-			System.out.println(iter);
-		}
-		
-		return true;
 	}*/
 	
 	
@@ -77,9 +63,6 @@ public class Equipo {
 		Equipo e1 = new Equipo("Equipo-1",12);
 
 		e1.addJugador("Carlos");
-		e1.addJugador("Carla");
-		e1.addJugador("Y");
-			
 			
 		e1.getJugador();
 
