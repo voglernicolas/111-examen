@@ -48,24 +48,10 @@ public class Equipo {
 	}
 	
 	
-	
-	
-	/*private boolean hayJugadoresRepetidos(Equipo e1, Equipo e2){
-		
-	}*/
-	
-	
-	
-	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		Equipo e1 = new Equipo("Equipo-1",12);
 
 		e1.addJugador("Carlos");
-			
 		e1.getJugador();
-
-
 	}
 }
